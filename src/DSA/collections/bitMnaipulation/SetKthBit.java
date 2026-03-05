@@ -1,0 +1,10 @@
+package DSA.collections.bitMnaipulation;
+
+public class SetKthBit {
+    public static void main(String[] args) {
+        int n=10;
+        int k=0;
+        int result=n|(1<<k);
+        System.out.println("result:"+result);
+    }
+}
